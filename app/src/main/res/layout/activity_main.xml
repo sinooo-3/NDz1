@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sino.ndzdemo1.MainActivity">
+
+ <LinearLayout
+     android:layout_width="match_parent"
+     android:layout_height="50dp"
+     android:orientation="horizontal"
+     android:id="@+id/llled">
+
+     <TextView
+         android:text="Led1"
+         android:gravity="center"
+         android:textSize="30dp"
+         android:layout_width="0dp"
+         android:layout_height="match_parent"
+         android:id="@+id/textView"
+         android:layout_weight="1" />
+     <ToggleButton
+         android:layout_width="0dp"
+         android:layout_height="match_parent"
+         android:layout_weight="0.44"
+         android:checked="true"
+         android:id="@+id/tb"/>
+ </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:id="@+id/llled2">
+
+        <TextView
+            android:text="Led2"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView1"
+            android:layout_weight="1" />
+        <ToggleButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.44"
+            android:checked="true"
+            android:id="@+id/tb2"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:id="@+id/buz">
+
+        <TextView
+            android:text="蜂鸣器"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/textView3"
+            android:layout_weight="1" />
+        <ToggleButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.44"
+            android:id="@+id/tb3"/>
+    </LinearLayout>
+</LinearLayout>
